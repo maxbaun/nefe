@@ -1,0 +1,40 @@
+$barleyCorn: #b1976b;
+$mortar: #555555;
+$nero: #262626;
+$nero2: #161616;
+
+$theme-colors: (
+  // 'primary': #ff6000,
+    'primary': $barleyCorn,
+  'danger': #ff4136,
+  'dark': $nero2
+);
+// #141b45
+// @import '~bootswatch/dist/Flatly/variables';
+
+// Bootstrap overrides
+$body-color: $mortar;
+$link-color: $barleyCorn;
+
+@import '~bootstrap/scss/bootstrap';
+// @import '~bootswatch/dist/Flatly/bootswatch';
+
+body {
+  // font-family: 'Titillium Web', sans-serif;
+  color: $mortar;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+}

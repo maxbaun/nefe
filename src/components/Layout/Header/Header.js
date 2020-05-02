@@ -10,10 +10,10 @@ import classes from '#root/data/classes';
 import {mediaBreakpointUp} from '#root/helpers/responsive';
 
 const Logo = styled.img`
-  width: 200px;
+  width: 150px;
 
   ${mediaBreakpointUp('lg')} {
-    width: 225px;
+    width: 150px;
   }
 `;
 
@@ -64,7 +64,8 @@ const Header = () => {
       <Navbar collapseOnSelect expand="lg">
         <Container>
           <Link className="navbar-brand" to="/">
-            <Logo src="/img/dark_logo_transparent_background.png" />
+            {/* <Logo src="/img/dark_logo_transparent_background.png" /> */}
+            <Logo src="/img/logo.png" />
           </Link>
           <Navbar.Toggle aria-controls="main-nav" />
           <Navbar.Collapse id="main-nav">

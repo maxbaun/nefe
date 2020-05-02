@@ -16,11 +16,13 @@ const Input = styled.input`
   }
 `;
 
-const Wrap = styled.div`
+const Wrap = styled.div.attrs({
+  className: 'form-group'
+})`
   margin-bottom: 14px;
 `;
 
-const TextInput = forwardRef(({id, label, name, type, ...props}, ref) => {
+const TextInput = forwardRef(({children, id, label, name, type, ...props}, ref) => {
   props = {
     ...props
   };
@@ -33,6 +35,7 @@ const TextInput = forwardRef(({id, label, name, type, ...props}, ref) => {
     <Wrap>
       {label ? <label htmlFor={id}>{label}</label> : null}
       <Input {...props} id={id} name={name} ref={ref} />
+      {children}
     </Wrap>
   );
 });
@@ -40,6 +43,7 @@ const TextInput = forwardRef(({id, label, name, type, ...props}, ref) => {
 TextInput.displayName = 'TextInput';
 
 TextInput.propTypes = {
+  error: PropTypes.any,
   id: PropTypes.string.isRequired,
   label: PropTypes.string,
   name: PropTypes.string.isRequired,

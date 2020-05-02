@@ -18,6 +18,7 @@ module.exports = {
         extensions: []
       }
     },
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    'gatsby-plugin-styled-components'
   ]
 };

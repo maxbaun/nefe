@@ -1,8 +1,12 @@
+import {config, dom} from '@fortawesome/fontawesome-svg-core';
 import PropTypes from 'prop-types';
 import React from 'react';
-import {ThemeProvider} from 'styled-components';
+import {createGlobalStyle} from 'styled-components';
 
-import theme from './components/Layout/theme';
+config.autoAddCss = false;
+const GlobalStyles = createGlobalStyle`
+    ${dom.css()}
+`;
 
 export default function HTML(props) {
   return (
@@ -31,6 +35,7 @@ export default function HTML(props) {
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
+        <GlobalStyles />
         <div key={'body'} id="___gatsby" dangerouslySetInnerHTML={{__html: props.body}} />
         {props.postBodyComponents}
         <script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>

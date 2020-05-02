@@ -19,6 +19,7 @@ module.exports = {
       }
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-styled-components'
+    'gatsby-plugin-styled-components',
+    'gatsby-plugin-netlify'
   ]
 };

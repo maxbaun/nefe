@@ -113,11 +113,11 @@ module.exports = [
   {
     cardDescription:
       'This class will help you to develop the skills needed to efficiently defend yourself with a firearm if needed.',
-    cardImage: '/img/utah-concealed-carry-permit.jpg',
+    cardImage: '/img/arms-blur-close-up-firing-370202.jpg',
     completion:
       'Upon completion Attendees will receive a course completion certificate and a coupon for $20 off their next firearm at Four Seasons Firearms',
     duration: '3-4 hours',
-    image: '/img/utah-concealed-carry-permit.jpg',
+    image: '/img/arms-blur-close-up-firing-370202.jpg',
     popular: true,
     price: '$250.oo per student',
     scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19448867&template=class',
@@ -159,7 +159,7 @@ module.exports = [
     completion:
       'Upon completion Attendees will receive a course completion certificate and a coupon for $20 off their next firearm at Four Seasons Firearms',
     duration: '3-4 hours',
-    image: '/img/utah-concealed-carry-permit.jpg',
+    image: '/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg',
     price: '$100.00',
     scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19448867&template=class',
     signupUrl: '/signup-for-firearms-license-massachusetts',
@@ -186,7 +186,7 @@ module.exports = [
     cardDescription:
       'This class will help you to develop the skills needed to efficiently defend yourself with a firearm if needed.',
     duration: '3-4 hours',
-    image: '/img/utah-concealed-carry-permit.jpg',
+    image: '/img/stock-photo-man-aiming-and-spraying-pepper-spray-with-visible-fog-on-black-background-741669550.jpg',
     price: '$50.00',
     scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19448867&template=class',
     signupUrl: '/signup-for-firearms-license-massachusetts',

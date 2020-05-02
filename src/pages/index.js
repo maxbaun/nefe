@@ -32,8 +32,12 @@ const CarouselCaption = styled(Carousel.Caption)`
 
   p {
     color: rgb(222, 222, 222);
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 500;
+
+    ${mediaBreakpointUp('lg')} {
+      font-size: 1.2em;
+    }
   }
 
   ${ButtonPrimary} {
@@ -65,12 +69,6 @@ const CarouselImageOverlay = styled.div`
   /* z-index: 0; */
 `;
 
-const MapWrap = styled.div`
-  iframe {
-    width: 100%;
-  }
-`;
-
 const popularClasses = classes.filter(c => c.popular);
 
 const Home = () => (
@@ -79,7 +77,12 @@ const Home = () => (
       <Carousel.Item>
         <CarouselImage>
           <CarouselImageOverlay />
-          <img className="img-fluid" src="/img/tanto-1200x768.jpg" alt="Train with Kris (Tanto) Paronto" />
+          <img
+            alt="Train with Kris (Tanto) Paronto"
+            className="img-fluid"
+            src="/img/tanto-1200x768.jpg"
+            style={{objectPosition: 'center 20%'}}
+          />
         </CarouselImage>
         <CarouselCaption>
           <h3>Train with Kris (Tanto) Paronto</h3>
@@ -158,6 +161,7 @@ const Home = () => (
                 description={item.cardDescription}
                 image={item.cardImage}
                 linkHref={`/${item.slug}`}
+                linkText="Learn More"
                 title={item.title}
                 style={{width: '100%'}}
               />

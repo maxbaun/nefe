@@ -84,12 +84,12 @@ const Header = () => {
               </NavDropdown>
 
               <Link className="nav-link" to="/about">
-                About Us
+                About
               </Link>
               <Link className="nav-link" to="/contact">
                 Contact
               </Link>
-              <ButtonPrimary vCenter className="btn-lg ml-lg-4" to="/signup-for-firearms-license-massachusetts">
+              <ButtonPrimary center vCenter className="btn-lg ml-lg-4" to="/signup-for-firearms-license-massachusetts">
                 Sign Up For A Class
               </ButtonPrimary>
             </Nav>

@@ -8,6 +8,7 @@ const Btn = styled(Link).attrs({
   border-radius: 0;
   display: ${props => (props.vCenter ? 'inline-flex' : 'inline-block')};
   font-size: 13px;
+  justify-content: ${props => (props.center && props.vCenter ? 'center' : 'initial')};
   padding: 12px 23px 12px 23px;
 
   &.btn-lg {

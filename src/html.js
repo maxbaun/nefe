@@ -18,7 +18,7 @@ export default function HTML(props) {
 
         <link
           rel="stylesheet"
-          href="http://fonts.googleapis.com/css?family=Oswald:400,400italic,500,500italic,700,700italic&subset=latin,latin-ext"
+          href="https://fonts.googleapis.com/css?family=Oswald:400,400italic,500,500italic,700,700italic&subset=latin,latin-ext"
         />
 
         <link

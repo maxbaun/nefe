@@ -9,13 +9,14 @@ const FooterWrap = styled.footer`
   display: flex;
   background-color: #111111;
   color: #a3a3a3;
+  padding: 1rem 0;
 `;
 
 const Footer = ({...props}) => {
   return (
     <FooterWrap {...props}>
       <Container>
-        <div className="py-3 text-light">
+        <div className="text-light">
           <Row>
             <Col md="4">
               <a href="tel:1234556789" className="text-white-50">

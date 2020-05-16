@@ -3,6 +3,8 @@ import React from 'react';
 import {ThemeProvider} from 'styled-components';
 import styled from 'styled-components';
 
+import {mediaBreakpointUp} from '#root/helpers/responsive';
+
 import Footer from './Footer';
 import Header from './Header';
 import theme from './theme';
@@ -13,16 +15,23 @@ const LayoutFooter = styled(Footer)``;
 
 const LayoutWrap = styled.div`
   min-height: 100vh;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   position: relative;
+
+  ${mediaBreakpointUp('md')} {
+    padding-bottom: 70px;
+  }
 
   ${LayoutFooter} {
     bottom: 0;
-    height: 70px;
-
+    height: 100px;
     left: 0;
     position: absolute;
     width: 100%;
+
+    ${mediaBreakpointUp('md')} {
+      height: 70px;
+    }
   }
 `;
 

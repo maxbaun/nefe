@@ -119,7 +119,7 @@ const Gallery = styled.div`
   /* Style your items */
   .gallery-grid__column > div {
     /* change div to reference your elements you put in <Masonry> */
-    background: grey;
+    background: whitesmoke;
     margin-bottom: 15px;
   }
 `;

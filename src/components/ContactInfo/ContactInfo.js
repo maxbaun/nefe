@@ -23,7 +23,7 @@ const ContactInfo = ({...props}) => {
       <li>
         <p className="d-flex align-items-center">
           <FontAwesomeIcon className="mr-3" icon={faEnvelope} />
-          contact@example.com
+          bdalton@nefirearms.com
         </p>
       </li>
     </ContactInfoWrap>

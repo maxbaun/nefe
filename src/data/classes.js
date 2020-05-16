@@ -5,7 +5,7 @@ module.exports = [
     cta: true,
     ctaTitle: 'Contact Us To Sign Up For Personal Training',
     duration: '3-4 hours',
-    image: '/img/utah-concealed-carry-permit.jpg',
+    image: '/img/classroom-2.jpg',
     price: [
       {
         label: 'Up to six attendees',
@@ -17,8 +17,10 @@ module.exports = [
         value: '$150.00 per person'
       }
     ],
-    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19448867&template=class',
-    signupUrl: '/signup-for-firearms-license-massachusetts',
+    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&template=class',
+    url: {
+      to: '/contact'
+    },
     slug: 'personal-training',
     title: 'Personal Training Classes',
     where: 'Classes are held at our Woburn, MA Facility located at 76R Winn St, 2nd Floor, Woburn, MA',
@@ -38,15 +40,18 @@ module.exports = [
   {
     cardDescription:
       'Get your Massachusetts basic Firearms safety certification class today, $100 or add your Utah Multi State for an extra $50',
-    cardImage: '/img/gun-safety-hero.jpg',
+    cardImage: '/img/firearms-class-7.jpg',
     completion:
       'Upon completion Attendees will receive a course completion certificate and a coupon for $20 off their next firearm at Four Seasons Firearms',
     duration: '4 hours',
-    image: '/img/gun-safety-hero.jpg',
+    image: '/img/firearms-class-7.jpg',
     popular: true,
     price: '$100.oo',
-    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19448867&template=class',
-    signupUrl: '/signup-for-firearms-license-massachusetts',
+    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&template=class',
+    url: {
+      as: 'a',
+      href: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&appointmentType=14382943'
+    },
     slug: 'basic-firearms-safety',
     title: 'Basic Firearm Safety',
     where: 'Classes are held at our Woburn, MA Facility located at 76R Winn St, 2nd Floor, Woburn, MA',
@@ -72,15 +77,18 @@ module.exports = [
   },
   {
     cardDescription: 'The Utah CCW permit will enable you to legally carry a concealed handgun in over 31 STATES!',
-    cardImage: '/img/utah-concealed-carry-permit.jpg',
+    cardImage: '/img/classroom-2.jpg',
     completion:
       'Upon completion Attendees will receive a course completion certificate and a coupon for $20 off their next firearm at Four Seasons Firearms',
     duration: '4 hours',
-    image: '/img/utah-concealed-carry-permit.jpg',
+    image: '/img/classroom-2.jpg',
     popular: true,
     price: '$100.oo',
-    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19448867&template=class',
-    signupUrl: '/signup-for-firearms-license-massachusetts',
+    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&template=class',
+    url: {
+      as: 'a',
+      href: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&appointmentType=14382952'
+    },
     slug: 'utah-concealed-carry-permit',
     title: 'Utah Concealed Carry Permit',
     where: 'Classes are held at our Woburn, MA Facility located at 76R Winn St, 2nd Floor, Woburn, MA',
@@ -113,15 +121,17 @@ module.exports = [
   {
     cardDescription:
       'This class will help you to develop the skills needed to efficiently defend yourself with a firearm if needed.',
-    cardImage: '/img/arms-blur-close-up-firing-370202.jpg',
+    cardImage: '/img/holster-2.jpg',
     completion:
       'Upon completion Attendees will receive a course completion certificate and a coupon for $20 off their next firearm at Four Seasons Firearms',
     duration: '3-4 hours',
-    image: '/img/arms-blur-close-up-firing-370202.jpg',
+    image: '/img/holster-2.jpg',
     popular: true,
     price: '$250.oo per student',
-    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19448867&template=class',
-    signupUrl: '/signup-for-firearms-license-massachusetts',
+    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&template=class',
+    url: {
+      to: '/contact'
+    },
     slug: 'defensive-handgun-101',
     title: 'Defensive Handgun 101',
     where: 'Classes are held at our Woburn, MA Facility located at 76R Winn St, 2nd Floor, Woburn, MA',
@@ -159,10 +169,11 @@ module.exports = [
     completion:
       'Upon completion Attendees will receive a course completion certificate and a coupon for $20 off their next firearm at Four Seasons Firearms',
     duration: '3-4 hours',
-    image: '/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg',
     price: '$100.00',
-    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19448867&template=class',
-    signupUrl: '/signup-for-firearms-license-massachusetts',
+    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&template=class',
+    url: {
+      to: '/contact'
+    },
     slug: 'personal-safety-and-home-defense',
     title: 'Personal Safety & Home Defense',
     where: 'Classes are held at our Woburn, MA Facility located at 76R Winn St, 2nd Floor, Woburn, MA',
@@ -186,10 +197,11 @@ module.exports = [
     cardDescription:
       'This class will help you to develop the skills needed to efficiently defend yourself with a firearm if needed.',
     duration: '3-4 hours',
-    image: '/img/stock-photo-man-aiming-and-spraying-pepper-spray-with-visible-fog-on-black-background-741669550.jpg',
     price: '$50.00',
-    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19448867&template=class',
-    signupUrl: '/signup-for-firearms-license-massachusetts',
+    scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&template=class',
+    url: {
+      to: '/contact'
+    },
     slug: 'pepper-spray-self-defense-class',
     title: 'Pepper Spray Self Defense Class',
     where: 'Classes are held at our Woburn, MA Facility located at 76R Winn St, 2nd Floor, Woburn, MA',

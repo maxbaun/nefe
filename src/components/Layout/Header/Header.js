@@ -83,14 +83,22 @@ const Header = () => {
                   </Link>
                 ))}
               </NavDropdown>
-
               <Link className="nav-link" to="/about">
                 About
+              </Link>
+              <Link className="nav-link" to="/gallery">
+                Photos
               </Link>
               <Link className="nav-link" to="/contact">
                 Contact
               </Link>
-              <ButtonPrimary center vCenter className="btn-lg ml-lg-4" to="/signup-for-firearms-license-massachusetts">
+              <ButtonPrimary
+                center
+                vCenter
+                as="a"
+                className="btn-lg ml-lg-4"
+                href="https://app.acuityscheduling.com/schedule.php?owner=19638832"
+              >
                 Sign Up For A Class
               </ButtonPrimary>
             </Nav>

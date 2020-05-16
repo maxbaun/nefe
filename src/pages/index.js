@@ -9,6 +9,7 @@ import ContactInfo from '#root/components/ContactInfo';
 import ContactSection from '#root/components/ContactSection';
 import Layout from '#root/components/Layout';
 import {ButtonPrimary} from '#root/components/shared/Button';
+import Video from '#root/components/shared/Video';
 import SocialIcons from '#root/components/SocialIcons';
 import classes from '#root/data/classes';
 import {mediaBreakpointUp} from '#root/helpers/responsive';
@@ -86,36 +87,45 @@ const Home = () => (
         </CarouselImage>
         <CarouselCaption>
           <h3>Train with Kris (Tanto) Paronto</h3>
-
-          <p>Some promo text</p>
-          <ButtonPrimary className="btn-lg mt-2" to="/utah-concealed-carry-permit">
-            Signup Now
+          <p>Come train with Kris (Tanto) Paronto depicted in the Movie 13 Hours, on August 29-30th 2020.</p>
+          <ButtonPrimary className="btn-lg mt-2" to="/train-with-kris-paronto">
+            Learn More
           </ButtonPrimary>
         </CarouselCaption>
       </Carousel.Item>
       <Carousel.Item>
         <CarouselImage>
           <CarouselImageOverlay />
-          <img className="img-fluid" src="/img/gun-safety-hero.jpg" alt="Basic Firearms Safety" />
+          <img
+            className="img-fluid"
+            src="/img/firearms-class-7.jpg"
+            alt="Basic Firearms Safety"
+            style={{objectPosition: 'center 20%'}}
+          />
         </CarouselImage>
         <CarouselCaption>
           <h3>Basic Firearms Safety</h3>
-          <p>Some promo text</p>
-          <ButtonPrimary className="btn-lg mt-2" to="/basic-firearms-safety-class-massachusetts">
-            Signup Now
+          <p>
+            This Basic Firearms Safety Class (LTC-007) is the required class for you to get your Firearms Permit in
+            Massachusetts.
+          </p>
+          <ButtonPrimary className="btn-lg mt-2" to="/basic-firearms-safety">
+            Learn More
           </ButtonPrimary>
         </CarouselCaption>
       </Carousel.Item>
       <Carousel.Item>
         <CarouselImage>
           <CarouselImageOverlay />
-          <img className="img-fluid" src="/img/defensive-handgun-101-class.jpg" alt="First slide" />
+          <img className="img-fluid" src="/img/classroom.jpg" alt="First slide" />
         </CarouselImage>
         <CarouselCaption>
           <h3>Utah Concealed Carry Permit</h3>
-          <p>Some promo text</p>
+          <p>
+            The Utah CCW permit will enable you to <strong>legally carry a concealed handgun in over 31 STATES!</strong>
+          </p>
           <ButtonPrimary className="btn-lg mt-2" to="/utah-concealed-carry-permit">
-            Signup Now
+            Learn More
           </ButtonPrimary>
         </CarouselCaption>
       </Carousel.Item>
@@ -125,7 +135,12 @@ const Home = () => (
         <Container>
           <Row>
             <Col md="6">
-              <img className="img-fluid mb-3 mb-md-0" src="/img/brian-dalton-radio-interview.png" width="100%" />
+              <Video
+                className="img-fluid mb-3 mb-md-0"
+                src="/video/live-commercial.mov"
+                thumbnail="/img/brian-dalton-radio-interview.png"
+                width="100%"
+              />
             </Col>
             <Col md="6">
               <div className="d-flex align-items-center h-100">

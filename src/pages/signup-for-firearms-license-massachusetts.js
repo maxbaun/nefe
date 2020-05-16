@@ -13,10 +13,7 @@ const Signup = () => {
     <Layout>
       <Container>
         <ContentPage title="Signup For Firearms Training in Massachusetts">
-          <Schedule
-            className="mt-4"
-            src="https://app.acuityscheduling.com/schedule.php?owner=19448867&template=class"
-          />
+          <Schedule className="mt-4" src="https://app.acuityscheduling.com/schedule.php?owner=19638832" />
         </ContentPage>
       </Container>
     </Layout>

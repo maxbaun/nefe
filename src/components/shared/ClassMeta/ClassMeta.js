@@ -35,7 +35,7 @@ const ClassMetaWrapper = styled.div`
   }
 `;
 
-const ClassMeta = ({duration, price, signupUrl, where, ...props}) => {
+const ClassMeta = ({duration, price, where, url, ...props}) => {
   return (
     <ClassMetaWrapper {...props}>
       <ul>
@@ -68,7 +68,7 @@ const ClassMeta = ({duration, price, signupUrl, where, ...props}) => {
           <span>{where}</span>
         </li>
       </ul>
-      <ButtonPrimary className="mt-2" to={signupUrl} variant="primary">
+      <ButtonPrimary {...url} className="mt-2" variant="primary">
         Signup For This Class
       </ButtonPrimary>
     </ClassMetaWrapper>
@@ -81,8 +81,12 @@ ClassMeta.propTypes = {
     PropTypes.string,
     PropTypes.arrayOf(PropTypes.shape({label: PropTypes.string, note: PropTypes.string, value: PropTypes.string}))
   ]),
-  signupUrl: PropTypes.string,
+  url: PropTypes.object,
   where: PropTypes.string
+};
+
+ClassMeta.defaultProps = {
+  url: {}
 };
 
 export default ClassMeta;

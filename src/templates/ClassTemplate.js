@@ -25,6 +25,13 @@ const ClassPageAsideInner = styled.div`
   padding: 22px 20px;
 `;
 
+const ClassPageHero = styled(Hero)`
+  img {
+    object-fit: cover;
+    object-position: center 30%;
+  }
+`;
+
 const ClassPageInner = styled.div`
   display: grid;
   grid-gap: 15px;
@@ -63,16 +70,12 @@ const ClassPageWrap = styled.div`
   padding: 2vh 0 6vh;
 `;
 
-const ClassTemplate = ({
-  pageContext: {body, completion, cta, ctaTitle, duration, image, price, signupUrl, title, where}
-}) => {
-  const meta = ({...props}) => (
-    <ClassMeta {...props} duration={duration} price={price} signupUrl={signupUrl} where={where} />
-  );
+const ClassTemplate = ({pageContext: {body, completion, cta, ctaTitle, duration, image, price, url, title, where}}) => {
+  const meta = ({...props}) => <ClassMeta {...props} duration={duration} price={price} url={url} where={where} />;
 
   return (
     <Layout>
-      <Hero image={image} />
+      {image ? <ClassPageHero image={image} /> : null}
       <Container>
         <ClassPageWrap>
           <ClassPageInner>
@@ -101,8 +104,8 @@ const ClassTemplate = ({
                   </Col>
                   <Col lg="3">
                     <ButtonPrimary
+                      {...url}
                       className="mt-3"
-                      to={signupUrl}
                       style={{display: 'block', maxWidth: 300, margin: '0 auto', width: '100%'}}
                     >
                       Signup Now
@@ -140,9 +143,9 @@ ClassTemplate.propTypes = {
       PropTypes.string,
       PropTypes.arrayOf(PropTypes.shape({label: PropTypes.string, note: PropTypes.string, value: PropTypes.string}))
     ]),
-    signupUrl: PropTypes.string,
     scheduleSrc: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    url: PropTypes.object,
     where: PropTypes.string
   })
 };

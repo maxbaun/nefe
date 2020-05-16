@@ -5,7 +5,7 @@ import ContentPage from '#root/components/ContentPage';
 import Layout from '#root/components/Layout';
 import LogoBanner from '#root/components/shared/LogoBanner';
 
-const UtahConcealed = () => {
+const AboutPage = () => {
   return (
     <Layout>
       <Container>
@@ -55,4 +55,4 @@ const UtahConcealed = () => {
   );
 };
 
-export default UtahConcealed;
+export default AboutPage;

@@ -21,7 +21,7 @@ const ContactSection = ({title, ...props}) => {
             <ContactForm />
           </Col>
           <Col md="4">
-            <ContactInfo className="text-lg-left list-unstyled ml-4" />
+            <ContactInfo className="text-lg-left list-unstyled ml-4 mt-3 mt-md-0" />
             <hr className="hr-light my-4" />
             <SocialIcons className="list-inline list-unstyled" />
           </Col>

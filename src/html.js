@@ -8,6 +8,14 @@ const GlobalStyles = createGlobalStyle`
     ${dom.css()}
 `;
 
+const meta = {
+  description:
+    'New England Firearms Academy provides the necessary Basic Firearm Safety Course for Massachusetts residents to obtail their MA License To Carry.',
+  image: 'https://nefirearms.com/img/logo.png',
+  title: 'New England Firearms Academy',
+  url: 'https://nefirearmsacademy.com'
+};
+
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
@@ -15,6 +23,19 @@ export default function HTML(props) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <meta name="description" content={meta.description} />
+        <title>{meta.title}</title>
+
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:image" content={meta.image} />
+        <meta property="og:url" content={meta.url} />
+
+        <meta property="twitter:title" content={meta.title} />
+        <meta property="twitter:description" content={meta.description} />
+        <meta property="twitter:image" content={meta.image} />
+        <meta name="twitter:card" content="summary_large_image" />
 
         <link
           rel="stylesheet"

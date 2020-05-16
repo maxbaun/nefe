@@ -130,6 +130,40 @@ const Home = () => (
         </CarouselCaption>
       </Carousel.Item>
     </Carousel>
+    <section className="pt-5 bg-white">
+      <Container>
+        <p>
+          Complete (<em>Temporary</em>){' '}
+          <strong>
+            “<em>Online TRAINING</em>“
+          </strong>{' '}
+          is not approved by the Massachusetts State Police, during the Governors Mandated Business Closures, please be
+          cautious of these claims,{' '}
+          <strong>
+            <em>Students can’t be fully certified online until they </em>physically go to the training facility offering
+            such options to <em>complete the second phase of the training </em>
+          </strong>
+          (LTC-002) and please be aware this is required to be explained and offered at the training facilities offering
+          such online training (LTC 020) not to be confused with the “LTC 002 “again the requirements/Options must be
+          explained clearly by the facility providing the training under LTC 020.{' '}
+          <em>
+            <strong>
+              Additionally what will be the waiting list to complete the second phase of this training with new Social
+              Distancing Guidelines and limited class sizes?
+            </strong>
+          </em>{' '}
+          This is one reason why the New England Firearms Academy is Not offering this option, we were considering it
+          strongly but don’t see any advantage to this process and most importantly the physical handling of the firearm
+          and classroom participation and interaction are compromised greatly. WE are in unprecedented times, everyone
+          is pulling together as Americans and please be patient and don’t cut corners on something so important as
+          quality training. Please{' '}
+          <a href="https://app.acuityscheduling.com/schedule.php?owner=19638832" style={{textDecoration: 'underline'}}>
+            sign up
+          </a>{' '}
+          to schedule you training with the New England Firearms Academy TODAY
+        </p>
+      </Container>
+    </section>
     <section className="py-5 bg-white">
       <div className="py-lg-3">
         <Container>

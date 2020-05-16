@@ -38,7 +38,7 @@ const VideoButton = styled.button`
 `;
 
 const VideoWrap = styled.div`
-  max-height: 100%;
+  height: calc(100% - 40px);
 
   video {
     display: block;
@@ -71,7 +71,7 @@ export const Video = ({imageProps, src, thumbnail, ...props}) => {
         isOpen={open}
         onRequestClose={() => setOpen(false)}
         style={{
-          content: {backgroundColor: 'transparent', border: 'none', overflow: 'hidden', padding: 0},
+          content: {backgroundColor: 'transparent', border: 'none', overflow: 'hidden', padding: 0, paddingTop: 40},
           overlay: {backgroundColor: 'rgba(0, 0, 0, 0.3)', zIndex: 999}
         }}
       >

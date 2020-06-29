@@ -46,7 +46,7 @@ module.exports = [
     duration: '4 hours',
     image: '/img/firearms-class-7.jpg',
     popular: true,
-    price: '$100.oo',
+    price: '$150.oo',
     scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&template=class',
     url: {
       as: 'a',
@@ -83,7 +83,7 @@ module.exports = [
     duration: '4 hours',
     image: '/img/classroom-2.jpg',
     popular: true,
-    price: '$100.oo',
+    price: '$150.oo',
     scheduleSrc: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&template=class',
     url: {
       as: 'a',

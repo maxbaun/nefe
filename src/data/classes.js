@@ -39,7 +39,7 @@ module.exports = [
   },
   {
     cardDescription:
-      'Get your Massachusetts basic Firearms safety certification class today, $100 or add your Utah Multi State for an extra $50',
+      'Get your Massachusetts basic Firearms safety certification class today, $150 or add your Utah Multi State for an extra $50',
     cardImage: '/img/firearms-class-7.jpg',
     completion:
       'Upon completion Attendees will receive a course completion certificate and a coupon for $20 off their next firearm at Four Seasons Firearms',

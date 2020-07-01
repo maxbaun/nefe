@@ -133,7 +133,7 @@ const Home = () => (
     <section className="pt-5 bg-white">
       <Container>
         <p>
-          Complete (<em>Temporary</em>){' '}
+          {/* Complete (<em>Temporary</em>){' '}
           <strong>
             “<em>Online TRAINING</em>“
           </strong>{' '}
@@ -154,9 +154,9 @@ const Home = () => (
           </em>{' '}
           This is one reason why the New England Firearms Academy is Not offering this option, we were considering it
           strongly but don’t see any advantage to this process and most importantly the physical handling of the firearm
-          and classroom participation and interaction are compromised greatly. WE are in unprecedented times, everyone
-          is pulling together as Americans and please be patient and don’t cut corners on something so important as
-          quality training. Please{' '}
+          and classroom participation and interaction are compromised greatly. */}
+          WE are in unprecedented times, everyone is pulling together as Americans and please be patient and don’t cut
+          corners on something so important as quality training. Please{' '}
           <a href="https://app.acuityscheduling.com/schedule.php?owner=19638832" style={{textDecoration: 'underline'}}>
             sign up
           </a>{' '}

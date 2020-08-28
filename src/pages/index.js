@@ -75,7 +75,7 @@ const popularClasses = classes.filter(c => c.popular);
 const Home = () => (
   <Layout>
     <Carousel>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <CarouselImage>
           <CarouselImageOverlay />
           <img
@@ -92,7 +92,7 @@ const Home = () => (
             Learn More
           </ButtonPrimary>
         </CarouselCaption>
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item>
         <CarouselImage>
           <CarouselImageOverlay />

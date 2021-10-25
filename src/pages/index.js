@@ -19,6 +19,8 @@ const CarouselCaption = styled(Carousel.Caption)`
   top: 50%;
   transform: translateY(-50%);
 
+  h1,
+  h2,
   h3 {
     color: #fff;
     font-size: 2em;
@@ -104,12 +106,12 @@ const Home = () => (
           />
         </CarouselImage>
         <CarouselCaption>
-          <h3>Basic Firearms Safety</h3>
+          <h1>Certificed Massachusetts Basic Firearms Safety</h1>
           <p>
             This Basic Firearms Safety Class (LTC-007) is the required class for you to get your Firearms Permit in
             Massachusetts.
           </p>
-          <ButtonPrimary className="btn-lg mt-2" to="/basic-firearms-safety">
+          <ButtonPrimary className="btn-lg mt-2" to="/certified-basic-firearms-safety-course">
             Learn More
           </ButtonPrimary>
         </CarouselCaption>

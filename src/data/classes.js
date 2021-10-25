@@ -52,8 +52,8 @@ module.exports = [
       as: 'a',
       href: 'https://app.acuityscheduling.com/schedule.php?owner=19638832&appointmentType=14382943'
     },
-    slug: 'basic-firearms-safety',
-    title: 'Basic Firearm Safety',
+    slug: 'certified-basic-firearms-safety-course',
+    title: 'Certified Massachusetts Basic Firearm Safety Class',
     where: 'Classes are held at our Woburn, MA Facility located at 76R Winn St, 2nd Floor, Woburn, MA',
     body: `
     <p>Get your MA Firearms Permit</p>

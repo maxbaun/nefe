@@ -9,7 +9,7 @@ const UtahConcealed = () => {
   return (
     <Layout>
       <Container>
-        <ContentPage title="Get Your Firearms License Massachusetts">
+        <ContentPage title="Get Your Certified Massachusetts Firearms Course">
           <h5 className="mt-4">
             If you’re interested in getting a firearms license (also known as a Firearms Identification Card, or FID, in
             Massachusetts, here are the steps you must follow:
@@ -17,8 +17,9 @@ const UtahConcealed = () => {
 
           <ol>
             <li>
-              You must complete an approved firearms safety course, like our{' '}
-              <Link to="/basic-firearms-safety">Basic Firearms Safety Course.</Link>&nbsp; You must do this FIRST.
+              You must complete a certified firearms safety course, like our{' '}
+              <Link to="/certified-basic-firearms-safety-course">Certified Basic Firearms Safety Course.</Link>&nbsp;
+              You must do this FIRST.
             </li>
             <li>
               You must complete an{' '}
@@ -35,7 +36,7 @@ const UtahConcealed = () => {
                 </li>
                 <li>
                   The application must include proof of completion of a{' '}
-                  <Link to="/basic-firearms-safety">state approved firearms safety course</Link>.
+                  <Link to="/certified-basic-firearms-safety-course">state certified firearms safety course</Link>.
                 </li>
                 <li>The application must include the requisite fee.</li>
               </ul>

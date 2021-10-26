@@ -106,7 +106,7 @@ const Home = () => (
           />
         </CarouselImage>
         <CarouselCaption>
-          <h1>Certificed Massachusetts Basic Firearms Safety</h1>
+          <h1>Certified Massachusetts Basic Firearms Safety</h1>
           <p>
             This Basic Firearms Safety Class (LTC-007) is the required class for you to get your Firearms Permit in
             Massachusetts.
